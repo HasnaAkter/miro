@@ -102,7 +102,7 @@ const NavBar = () => {
           </Link>
 
           <Link to="/">
-            <button className="rounded-lg px-4 py-2 text-lg md:px-8 md:text-xl bg-blue-500 text-blue-100 hover:bg-blue-600 duration-300">
+            <button className="rounded-full px-4 py-2 text-lg md:px-8 md:text-xl bg-blue-500 text-blue-100 hover:bg-blue-600 duration-300">
               Sign up free →
             </button>
           </Link>

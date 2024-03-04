@@ -8,19 +8,19 @@ const Banner = () => {
       
       <div className="col-span-1 md:col-span-1">
         <div className="p-4 md:p-8 lg:p-12">
-          <h2 className="text-4xl font-bold mb-2">Take ideas from <br /> better to best</h2>
+          <h2 className="text-2xl md:text-4xl font-bold mb-2">Take ideas from <br /> better to best</h2>
           <p className="text-gray-600">Miro is your team's visual platform to connect, <br /> collaborate, and create — together.</p>
-          <input type="text" placeholder="Enter your work email" className="input input-bordered input-primary w-full max-w-xs" />
+          <input type="text" placeholder="Enter your work email" className="input input-bordered input-primary w-full max-w-xs md:max-w-full rounded-full mt-4 md:mt-6" />
           <div className='pt-2'>
             <Link to="/login">
-              <button className="rounded-lg px-4 py-2 text-lg md:px-8 md:text-xl bg-blue-500 text-blue-100 hover:bg-blue-600 duration-300">
+              <button className="rounded-full px-4 py-2 text-lg md:text-xl bg-blue-500 text-blue-100 hover:bg-blue-600 duration-300">
                 Sign up free →
               </button>
             </Link>
           </div>
-          <p className="text-gray-600">Collaborate with your team within minutes</p>
+          <p className="text-gray-600 mt-2">Collaborate with your team within minutes</p>
           <Link to="">
-            <img src={sico} alt="Icon" className="w-full h-16" />
+            <img src={sico} alt="Icon" className="w-full h-16 mt-4 md:mt-6" />
           </Link>
         </div>
       </div>

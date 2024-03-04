@@ -21,6 +21,7 @@ const Collaborate = () => {
               <span className="text-blue-500">pricing plans</span> for more
               features.
             </p>
+            
           </div>
           <div>
             <h1 className="font-bold text-2xl p-3">Easy integrations</h1>
@@ -43,7 +44,7 @@ const Collaborate = () => {
       </div>
       <div className="flex justify-center pt-3">
         <Link to="/">
-          <button className="rounded-lg px-4 py-2 text-lg md:px-8 md:text-xl bg-blue-500 text-blue-100 hover:bg-blue-600 duration-300">
+          <button className="rounded-full px-4 py-2 text-lg md:px-8 md:text-xl bg-blue-500 text-blue-100 hover:bg-blue-600 duration-300">
             Sign up free →
           </button>
         </Link>
