@@ -1,4 +1,4 @@
-import fotarlogo from "../../assets/img_logo_icon/FieldX.png";
+
 const footer = () => {
   return (
     <div>
