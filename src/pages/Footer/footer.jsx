@@ -1,13 +1,12 @@
-
 const footer = () => {
   return (
     <div>
-      <footer className="footer p-24 bg-indigo-900 text-base-content">
+      <footer className="footer p-20 bg-indigo-900 text-base-content">
         <nav>
           <h6 className=" text-xl text-white font-bold">
             Scan. Detect. Remove.
           </h6>
-          <div className="grid grid-flow-col gap-4 text-white py-3">
+          <div className="grid grid-flow-col gap-4 text-white ">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -88,23 +87,24 @@ const footer = () => {
             - <span className="px-3">Insights</span>
           </a>
         </nav>
-        <div className="bg-yellow-500 border-2xl rounded-lg">
-          <form className="p-10 ">
-            <h6 className=" pt-3 text-black text-2xl font-bold">
+
+        <nav className="p-4 md:p-8 lg:p-16">
+          <form className="bg-yellow-500 border-2xl rounded-lg p-8">
+            <h6 className="text-black text-2xl font-bold mb-4">
               Sign up to our newsletter
             </h6>
-            <fieldset className="form-control w-80 py-3">
+            <fieldset className="form-control md:w-96 lg:w-80 py-3">
               <label className="label">
-                <span className="label-text ">
+                <span className="label-text">
                   Receive the latest mobile security news, exclusive discounts &
                   offers straight to your inbox!
                 </span>
               </label>
-              <div className="join">
+              <div className="flex flex-col md:flex-row items-stretch">
                 <input
                   type="text"
                   placeholder="Email address"
-                  className="input input-bordered join-item"
+                  className="input input-bordered join-item mb-2 md:mr-2 md:mb-0"
                 />
                 <button className="btn bg-indigo-900 text-white join-item">
                   Submit
@@ -112,7 +112,7 @@ const footer = () => {
               </div>
             </fieldset>
           </form>
-        </div>
+        </nav>
       </footer>
     </div>
   );

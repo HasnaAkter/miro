@@ -89,6 +89,7 @@ const NavBar = () => {
             <button className=" hover:bg-gray-100 duration-300 p-2">
               EN
             </button>
+           
           </Link> 
           <Link to="">
             <button className=" hover:bg-gray-100 duration-300 p-2">
