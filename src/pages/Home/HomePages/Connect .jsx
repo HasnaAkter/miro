@@ -3,8 +3,8 @@ import connect from "../../../assets/All-images/M3_integrations_all_integrations
 
 const Connect = () => {
   return (
-    <div className="">
-      <div className="grid gap-4 grid-cols-2 my-5 p-20 ">
+    <div className="px-24">
+      <div className="grid gap-4 grid-cols-2 my-5  ">
       <div>
           <img src={connect} alt="" />
         </div>
@@ -20,7 +20,7 @@ const Connect = () => {
             <div className="">
                 {" "}
                 <button className=" btn-outline border-none   text-blue-400">
-                  Learn More -
+                Learn More →
                 </button>
               </div>{" "}
           </div>

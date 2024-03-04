@@ -3,8 +3,8 @@ import hw from "../../../assets/All-images/hybridwork.png.png";
 
 const Togethers = () => {
   return (
-    <div className="">
-      <div className="grid gap-4 grid-cols-2 my-5 p-20 ">
+    <div className="px-24">
+      <div className="grid gap-4 grid-cols-2 my-5  ">
         <div>
           <div className=" my-24">
             <h1 className="text-4xl font-bold ">
@@ -17,7 +17,7 @@ const Togethers = () => {
             <div className="">
                 {" "}
                 <button className=" btn-outline border-none   text-blue-400">
-                  Learn More -
+                Learn More →
                 </button>
               </div>{" "}
           </div>

@@ -1,12 +1,11 @@
-import React from 'react';
 import tableBanner from "../../../assets/All-images/headerimage-without-text.png.png";
 import sico from "../../../assets/All-images/div.png";
 import { Link } from 'react-router-dom';
 
 const Banner = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 md:p-10 lg:p-20">
-      {/* First Column */}
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 md:p-10 lg:p-24">
+      
       <div className="col-span-1 md:col-span-1">
         <div className="p-4 md:p-8 lg:p-12">
           <h2 className="text-4xl font-bold mb-2">Take ideas from <br /> better to best</h2>
@@ -26,7 +25,6 @@ const Banner = () => {
         </div>
       </div>
 
-      {/* Second Column */}
       <div className="col-span-1 md:col-span-1">
         <Link to="/page1">
           <img src={tableBanner} alt="Table Banner" className="w-full h-auto" />
